@@ -4,15 +4,23 @@
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
 <Reference URI="info/manifest.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>3DyHMmeekLUsF/nW/K//+YXvljLvdb8Uu8sjNbssH0o=</DigestValue>
+<DigestValue>Y9UZVBMoogYLWUrNnLrosgTexU9cDu0fh9PgdjRIDz4=</DigestValue>
 </Reference>
 <Reference URI="bin/Mnemosyne.exe">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>jZ+P0ghKg2mYFc+GwfczNmfay9hG3+EDSMz/N8X6QbI=</DigestValue>
+<DigestValue>YxPPu2uKddJLKx0CYia0Um8MgA4A4k8BVeIpPJKlIyc=</DigestValue>
+</Reference>
+<Reference URI="res/screen-size-normal/IDF_MAIN.xml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>v0OtozG0IbeEKAzksQjb2s1amTsS7eLpW+MdtvkpxtU=</DigestValue>
 </Reference>
 <Reference URI="shared/res/screen-density-xhigh/mainmenu.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>1d0oEZHqPn+QzNzGIHwj9ODby6x9ggFs9uOsav6jPNs=</DigestValue>
+</Reference>
+<Reference URI="shared/res/screen-density-xhigh/mainicon.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>+AfBKK78Nqen16Hqr1R6HfuqbmTUJ2Ro3Oue2uD/9m0=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -23,9 +31,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-BAy9/OjxfgvufhImEP5JIb9M01irJKoOx/uikeoMzRpPRlF+G9wexZw36qP7w04kpJz+YWv41oOZ
-w8fb2Q+Bb6fRA4saUbeL0mHtHMUBKNPHGfIa8KeNV7DW5/WZTGV8wWu5PxZ4p6drCJU3ag5DToaI
-Eu66YwSISUJ68kRsScA=
+YYlrwbNPkQVuiCKGYEU2QqM15jbSSwgmu2D9jnqUSIfQvXDXfg4cYVWIT0WcZT7DCPo7k6QPU9BS
++sYE5EKwRNYpAjdreQT3o5PRWPLxtpT+w14JvSP7TZfuMvPO4VGsKu7HM7glBAThu5mQVOWZt1vw
+igGY+qrcxk5RFtSgpsk=
 </SignatureValue>
 <KeyInfo>
 <X509Data>

@@ -4,16 +4,22 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../src/AppResourceId.cpp \
+../src/Main.cpp \
 ../src/Mnemosyne.cpp \
 ../src/MnemosyneEntry.cpp \
 ../src/MnemosyneFrame.cpp 
 
 OBJS += \
+./src/AppResourceId.o \
+./src/Main.o \
 ./src/Mnemosyne.o \
 ./src/MnemosyneEntry.o \
 ./src/MnemosyneFrame.o 
 
 CPP_DEPS += \
+./src/AppResourceId.d \
+./src/Main.d \
 ./src/Mnemosyne.d \
 ./src/MnemosyneEntry.d \
 ./src/MnemosyneFrame.d 

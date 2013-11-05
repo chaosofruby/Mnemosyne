@@ -1,24 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Manifest xmlns="http://schemas.tizen.org/2012/12/manifest">
-	<Id>8BeUpOw5dJ</Id>
-	<Version>1.0.0</Version>
-	<Type>C++App</Type>
-<Requirements>
-<Feature Name="http://tizen.org/feature/screen.size.normal">true</Feature>
-</Requirements>
-	<Apps>
-		<ApiVersion>2.2</ApiVersion>
-		<Privileges></Privileges>
-		<UiApp Name="Mnemosyne" Main="True" MenuIconVisible="True">
-			<UiScalability CoordinateSystem="Logical" BaseScreenSize="Normal" LogicalCoordinate="720"></UiScalability>
-			<UiTheme SystemTheme="White"></UiTheme>
-			<DisplayNames>
-				<DisplayName Locale="eng-GB">Mnemosyne</DisplayName>
-			</DisplayNames>
-			<Icons>
-				<Icon Section="MainMenu" >mainmenu.png</Icon>
-			</Icons>
-
-		</UiApp>
-	</Apps>
+    <Id>8BeUpOw5dJ</Id>
+    <Version>1.0.0</Version>
+    <Type>C++App</Type>
+    <Author>Alexander Popov</Author>
+    <Requirements>
+        <Feature Name="http://tizen.org/feature/platform.core.cpu.arch.armv7">true</Feature>
+        <Feature Name="http://tizen.org/feature/platform.core.fpu.arch.vfpv3">true</Feature>
+        <Feature Name="http://tizen.org/feature/screen.size.normal">true</Feature>
+    </Requirements>
+    <Apps>
+        <ApiVersion>2.2</ApiVersion>
+        <Privileges/>
+        <UiApp LaunchingHistoryVisible="True" Main="True" MenuIconVisible="True" Name="Mnemosyne">
+            <UiScalability BaseScreenSize="Normal" CoordinateSystem="Logical" LogicalCoordinate="720"/>
+            <UiTheme SystemTheme="White"/>
+            <DisplayNames>
+                <DisplayName Locale="eng-GB">Mnemosyne</DisplayName>
+            </DisplayNames>
+            <Icons>
+                <Icon Section="MainMenu">mainicon.png</Icon>
+            </Icons>
+            <LaunchConditions/>
+        </UiApp>
+    </Apps>
 </Manifest>
